@@ -1,0 +1,24 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="MainMenuManager">
+			<method name="ShowMenu"/>
+			<method name="loadLevel"/>
+			<method name="QuitGame"/>
+			<method name="ShowMenu"/>
+			<method name="ShowMenu"/>
+			<method name="ShowMenu"/>
+		</type>
+		<type fullname="MenuButtonLoadLevel">
+			<method name="loadLevel"/>
+			<method name="loadLevel"/>
+		</type>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="UnityStandardAssets.CrossPlatformInput.ButtonHandler">
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+		</type>
+	</assembly>
+</linker>
